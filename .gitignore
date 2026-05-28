@@ -1,0 +1,209 @@
+# =========================
+# Python cache and bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# =========================
+# Distribution / packaging
+# =========================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.virtualenv/
+.pyenv/
+.pipenv/
+poetry.lock  # (optional: remove if you want deterministic builds)
+
+# =========================
+# PyInstaller
+# =========================
+*.manifest
+*.spec
+
+# =========================
+# Installer logs
+# =========================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Unit test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+hypothesis/
+.pyre/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# IPython
+# =========================
+profile_default/
+ipython_config.py
+
+# =========================
+# Environments / secrets
+# =========================
+.env
+.env.*
+!.env.example
+secret.json
+secrets.json
+
+# =========================
+# Django / Flask / web frameworks
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask instance folder
+instance/
+
+# =========================
+# FastAPI / general backend
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Type checking / linting
+# =========================
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# =========================
+# IDEs / Editors
+# =========================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs and runtime
+# =========================
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Node (if mixed project)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Coverage and reports
+# =========================
+report/
+reports/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# ML / Data science
+# =========================
+*.h5
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+data/
+datasets/
+models/
+
+# Jupyter outputs
+*.nbconvert.ipynb
