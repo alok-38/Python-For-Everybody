@@ -1,11 +1,12 @@
-# Open the file in write mode ('w')
-with open("example.txt", "w") as file:
+with open("example.txt", "w+") as file:
     file.write("Hello, this is my first line of text!\n")
-    # Append
-    file.write("This line is appended to the bottom.\n")
     
-    try:
-        with open("example.txt", "x") as file:
-            file.write("This only works if the file is brand new")
-    except FileExistsError:
-        print("Error: The file already exists!")
+    file.write("This line is appended to the bottom.\n")
+    file.write("Another appended line.\n")
+
+    # Move cursor back to start before reading
+    file.seek(0)
+
+    content = file.read()
+
+print(content)
