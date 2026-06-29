@@ -3,8 +3,9 @@ import time
 import os
 import subprocess
  
+
 def clear_screen():
-    subprocess.run('cls' if os.name == 'nt' else 'clear', shell=True)
+    subprocess.run(['cls'] if os.name == 'nt' else ['clear'])
  
 def show_instructions(game_type="rps"):
     if game_type == "rps":
